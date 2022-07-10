@@ -1,0 +1,812 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="style.xsl"?>
+
+<!DOCTYPE TEI SYSTEM "tei-all.dtd">
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" >
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Trois premières conférences à l'Université</title> <!--Titolo preso dalla BGE-->
+                <title type="sub">(cours d'ouverture, <date when="1891-11">novembre 1891</date>)</title>
+                <author ref="#FdS" role="author">Ferdinand de Saussure</author>
+                <respStmt>
+					<resp>Responsability of:</resp>
+					<name ref="#MP">Marco Piquereddu</name>
+				</respStmt>
+            </titleStmt>
+            
+            <editionStmt>   
+                <edition n="DigitalEdition">Digital edition
+                    <date when="2022-06"> June 2022 </date>
+                </edition>
+                <respStmt>
+                    <resp>Digital edition project coordinated by</resp> 
+                    <name ref="#AMDG">Angelo Mario Del Grosso</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding by</resp>
+                    <name ref="#MP">Marco Piquereddu</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Transcription by</resp>
+                    <name ref="#Bouquet">Bouquet</name>
+                    <name ref="#Engler">Engler</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Translation by</resp>
+                    <name ref="#EF">E. Fadda</name>
+                </respStmt>              
+            </editionStmt>
+
+            <publicationStmt>
+				<publisher> Marco Piquereddu </publisher>
+				<availability>
+					<licence target="https://creativecommons.org/licenses/by/4.0/"> CC-BY 4.0 </licence>
+				</availability>
+                <date when="2022">2022</date>
+			</publicationStmt>
+            
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>Switzerland</country>    
+                        <settlement>Genève</settlement>
+                        <institution>Bibliothèque de Genève</institution>
+                        <repository role="library" ref="http://institutions.ville-geneve.ch/fr/bge/">Bibliothèque de Genève</repository>
+                        <collection>Archives Ferdinand de Saussure</collection>
+                        <idno type="inventory">3951/1</idno>
+                        <altIdentifier type="inventory"><idno>17786/vtae78f994bf3242bef</idno></altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem n="1">
+                            <author xml:lang="fr" ref="#FdS">Ferdinand de Saussure</author>
+                            <title xml:lang="fr" type="main">Trois premières conférences à l'Université</title>
+                            <title type="sub">Première conférence</title>
+                            <docDate when="1891-11-06">06/11/1891</docDate>
+                            <textLang mainLang="fr">French</textLang>
+                        </msItem>
+                        <msItem n="2">
+                            <author xml:lang="fr" ref="#FdS">Ferdinand de Saussure</author>
+                            <title xml:lang="fr" type="main">Trois premières conférences à l'Université</title>
+                            <title type="sub">Deuxième conférence</title>
+                            <docDate when="1891-11-10">10/11/1891</docDate>
+                            <textLang mainLang="fr">French</textLang>                           
+                        </msItem>
+                        <msItem n="3">
+                            <author xml:lang="fr" ref="#FdS">Ferdinand de Saussure</author>
+                            <title xml:lang="fr" type="main">Trois premières conférences à l'Université</title>
+                            <title type="sub">Troisième conférence</title>
+                            <docDate when="1891-11-13">13/11/1891</docDate>
+                            <textLang mainLang="fr">French</textLang>
+                        </msItem>                        
+                    </msContents>                    
+                    <physDesc>
+                        <objectDesc form="folio">
+                            <supportDesc resp="#AC" source="https://archives.bge-geneve.ch/ark:/17786/vtae78f994bf3242bef">
+                                <support>
+                                    <material>Thin checkered paper</material>
+                                </support>
+                                <extent>
+                                    <measureGrp type="notebook" unit="pages" source="https://archives.bge-geneve.ch/ark:/17786/vtae78f994bf3242bef"> 
+                                        <measure quantity="30">30 pages +</measure>
+                                        <measure quantity="15">15 pages +</measure>
+                                        <measure quantity="22">22 pages</measure>
+                                    </measureGrp>
+                                    <dimensions type="leaves" unit="mm"><height unit="mm" quantity="211">211</height><width unit="mm" quantity="136">136</width></dimensions>
+                                </extent>
+                                <foliation>The page is part of a notebook composed of a left and a right page, each page consists in a folio</foliation>
+                                <condition>Well preserved notebook, good conditions. Some pages present a few tears in the left or right borders.</condition>
+                            </supportDesc>
+                        </objectDesc>
+                        <handDesc hands="1">
+                            <handNote xml:id="h1">The main text is written by hand by <persName ref="#FdS">Ferdinand de Saussure</persName></handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin ana="#pag1_note2">
+                            <origDate when="1891-11-06" cert="high">06/11/1891</origDate> Première conférence
+                            <origDate when="1891-11-10" cert="high">10/11/1891</origDate> Deuxième conférence
+                            <origDate when="1891-11-13" cert="low" source="#Bouquet-Engler2002">13/11/1891</origDate> Troisième conférence
+                            <origPlace>Gèneve</origPlace>
+                        </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+
+        <encodingDesc>
+            <editorialDecl> <!--SCHEMA PERICOPI: codice, testo FR-->
+                <segmentation>
+                    <p>
+                        <list>
+                            <!--PERICOPE 1-->
+                            <label>
+                                <idno type="ID-pericope">91Aaaa001</idno>
+                            </label>
+                            <item corresp="#pericope_001" facs="#facs_Pericope1">
+                                <!--Testo per. 1-->
+                                <seg>
+                                    Les objets considérés dans nos deux premières 
+                                    conférences nous donnent, dès à présent, si nous 
+                                    les groupons dans notre esprit, un aperçu 
+                                    suffisant sur ce qu’est la condition 
+                                    de la langue dans le Temps, devant le 
+                                    facteur Temps;
+                                </seg>
+                            </item>
+                            <!--PERICOPE 2-->
+                            <label>
+                                <idno type="ID-pericope">91Aaaa002</idno>
+                            </label>
+                            <item corresp="#pericope_002" facs="#facs_Pericope2">
+                                <!--Testo per. 2-->
+                                <seg>
+                                    ils nous donnent une idée des condition
+                                    universelles où se trouve placé
+                                    un idiome quelconque en présence du fait « qu’un certain intervalle de temps s’écoule » - et nous nous 
+                                    sommes appliqué à ne faire intervenir, 
+                                    jusqu’à présent, aucun autre facteur 
+                                    fondamental que ce facteur de la durée, 
+                                    de la distance chronologique.
+                                </seg>
+                            </item>
+                            <!--PERICOPE 3-->
+                            <label>
+                                <idno type="ID-pericope">91Aaaa003</idno>
+                            </label>
+                            <item corresp="#pericope_003" facs="#facs_Pericope3">
+                                <!--Testo per. 3-->
+                                <seg>
+                                    S’il fallait récapituler les principaux points de vue où nous avons été 
+                                    conduits dans cette première étude, j’insisterais certainement encore une fois sur l’impossibilité radicale, non 
+                                    seulement de toute rupture, mais de tout soubresaut, dans la tradition continue 
+                                    de la langue depuis le premier jour même où une 
+                                    société humaine a parlé;
+                                </seg>
+                            </item>
+                            <!--PERICOPE 4-->
+                            <label>
+                                <idno type="ID-pericope">91Aaaa004</idno>
+                            </label>
+                            <item corresp="#pericope_004" facs="#facs_Pericope4">
+                                <!--Testo per. 4-->
+                                <seg>
+                                    - sur ces 
+                                    différents points immédiatement évidents, qu’aucune langue ne peut 
+                                    mourir, si elle n’est violemment supprimée ;
+                                </seg>
+                            </item>
+                            <!--PERICOPE 5-->
+                            <label>
+                                <idno type="ID-pericope">91Aaaa005</idno>
+                            </label>
+                            <item corresp="#pericope_005" facs="#facs_Pericope5">
+                                <!--Testo per. 5-->
+                                <seg>
+                                    - qu’aucune n’a une vieillesse, et qu’aucune n’a une enfance, qu’enfin aucune langue 
+                                    nouvelle ne peut jamais naître sous le soleil ;
+                                </seg>
+                            </item>
+                            <!--PERICOPE 6-->
+                            <label>
+                                <idno type="ID-pericope">91Aaaa006</idno>
+                            </label>
+                            <item corresp="#pericope_006" facs="#facs_Pericope6">
+                                <!--Testo per. 6-->
+                                <seg><!--inizio 2a pagina-->
+                                    que si on supprime la langue d’un  
+                                    peuple en lui en imposant une 
+                                    autre, cette autre langue se trouve être naturellement juste aussi 
+                                    ancienne que celle qui vient d’être 
+                                    abolie, de manière qu’il ne peut jamais 
+                                    y avoir sur le globe que continuation d’un idiome 
+                                    existant la veille, et toujours 
+                                    existant la veille, jusqu’à ce qu’on arrive à la nuit 
+                                    insondable des âges décidément antéhistoriques.
+                                </seg>
+                            </item>
+                            <!--PERICOPE 7-->
+                            <label>
+                                <idno type="ID-pericope">91Aaaa007</idno>
+                            </label>
+                            <item corresp="#pericope_007" facs="#facs_Pericope7">
+                                <!--Testo per. 7-->
+                                <seg>
+                                    Je rappellerais surtout, toujours 
+                                    dans le même ordre d’idées, qu’il n’arrive 
+                                    jamais qu’une langue succède à une 
+                                    autre ;
+                                </seg>
+                            </item>
+                            <!--PERICOPE 8-->
+                            <label>
+                                <idno type="ID-pericope">91Aaaa008</idno>
+                            </label>
+                            <item corresp="#pericope_008" facs="#facs_Pericope8">
+                                <!--Testo per. 8-->
+                                <seg>
+                                    par exemple que le français succède au latin ;
+                                </seg>
+                            </item>
+                            <!--PERICOPE 9-->
+                            <label>
+                                <idno type="ID-pericope">91Aaaa009</idno>
+                            </label>
+                            <item corresp="#pericope_009" facs="#facs_Pericope9">
+                                <!--Testo per. 9-->
+                                <seg>
+                                    mais que cette succession imaginaire de deux choses vient 
+                                    uniquement de ce qu’il nous plaît de donner deux noms successifs 
+                                    au même idiome et par conséquent d’en 
+                                    faire arbitrairement deux choses séparées dans le temps.
+                                </seg>
+                            </item>
+                            <!--PERICOPE 10-->
+                            <label>
+                                <idno type="ID-pericope">91Aaaa0010</idno>
+                            </label>
+                            <item corresp="#pericope_0010" facs="#facs_Pericope10">
+                                <!--Testo per. 10-->
+                                <seg>
+                                    Sans doute, l’influence qu’exercent sur notre esprit 
+                                    deux noms successifs de ce genre est 
+                                    tellement décisive et tellement inébranlable, indéracinable, que 
+                                    je ne songe pas, je vous l’avoue franchement, à détruire 
+                                    votre préjugé en quelques jours par deux ou trois remarques 
+                                    de ma part.
+                                </seg>
+                            </item>
+                            <!--PERICOPE 11-->
+                            <label>
+                                <idno type="ID-pericope">91Aaaa0011</idno>
+                            </label>
+                            <item corresp="#pericope_0011" facs="#facs_Pericope11">
+                                <!--Testo per. 11-->
+                                <seg>
+                                    Ce n’est - tous les linguistes le savent – 
+                                </seg><!--continua nella 3a pagina-->
+                            </item>
+                        </list>
+                    </p>
+                </segmentation>
+            </editorialDecl>
+        </encodingDesc>
+    </teiHeader>
+
+    <facsimile>
+        <!--PRIMA PAGINA-->
+        <surface n="1" xml:id="scan_p1">
+            <graphic url='ms_fr_03951_01_3_f002_001.jpg' width='6048px' height='4032px' />
+            <!--Numerazione a mano-->
+            <zone points = ' 2605,552 2777,552 2773,705 2595,704 ' rendition="hotspot" xml:id="facs_HandPageNumber-1"/>
+            <!--Righe-->
+            <zone points = ' 2862,634 2862,747 4506,694 4511,823 ' rendition="line" xml:id="facs_p1_lb1"/>
+            <zone points = ' 4486,843 4483,930 2713,790 2713,880 ' rendition="line" xml:id="facs_p1_lb2"/>
+            <zone points = ' 2713,894 2711,994 4440,949 4440,1046 ' rendition="line" xml:id="facs_p1_lb3"/>
+            <zone points = ' 4435,1067 4434,1160 2711,1017 2710,1102 ' rendition="line" xml:id="facs_p1_lb4"/>
+            <zone points = ' 2719,1124 2721,1226 4433,1175 4436,1267 ' rendition="line" xml:id="facs_p1_lb5"/>
+            <zone points = ' 4418,1279 4414,1370 2725,1252 2727,1338 ' rendition="line" xml:id="facs_p1_lb6"/>
+            <zone points = ' 2733,1386 2732,1455 4439,1391 4437,1496 ' rendition="line" xml:id="facs_p1_lb7"/>
+            <zone points = ' 2544,1474 2541,1550 4421,1515 4425,1608 ' rendition="line" xml:id="facs_p1_lb8"/>
+            <zone points = ' 2698,1608 2701,1716 4428,1628 4425,1714 ' rendition="line" xml:id="facs_p1_lb9"/>
+            <zone points = ' 4417,1728 4418,1822 2714,1730 2719,1827 ' rendition="line" xml:id="facs_p1_lb10"/>
+            <zone points = ' 2730,1851 2730,1939 4436,1844 4440,1936 ' rendition="line" xml:id="facs_p1_lb11"/>
+            <zone points = ' 2740,1959 2742,2058 4423,1950 4422,2046 ' rendition="line" xml:id="facs_p1_lb12"/>
+            <zone points = ' 2747,2080 2748,2181 3960,2072 3954,2166 ' rendition="line" xml:id="facs_p1_lb13"/>
+            <zone points = ' 2964,2221 2971,2328 4437,2215 4436,2303 ' rendition="line" xml:id="facs_p1_lb14"/>
+            <zone points = ' 2745,2352 2736,2428 4430,2321 4426,2393 ' rendition="line" xml:id="facs_p1_lb15"/>
+            <zone points = ' 2520,2412 2520,2576 4420,2425 4419,2518 ' rendition="line" xml:id="facs_p1_lb16"/>
+            <zone points = ' 2731,2575 2736,2653 4387,2543 4388,2621 ' rendition="line" xml:id="facs_p1_lb17"/>
+            <zone points = ' 4368,2640 4364,2727 2741,2673 2746,2755 ' rendition="line" xml:id="facs_p1_lb18"/>
+            <zone points = ' 2749,2778 2754,2873 4373,2747 4374,2830 ' rendition="line" xml:id="facs_p1_lb19"/>
+            <zone points = ' 2758,2883 2757,2964 4363,2851 4362,2932 ' rendition="line" xml:id="facs_p1_lb20"/>
+            <zone points = ' 2517,2985 2514,3071 4381,2960 4382,3052 ' rendition="line" xml:id="facs_p1_lb21"/>
+            <zone points = ' 2505,3085 2508,3206 4424,3072 4421,3171 ' rendition="line" xml:id="facs_p1_lb22"/>
+            <zone points = ' 2761,3215 2761,3309 4433,3184 4434,3292 ' rendition="line" xml:id="facs_p1_lb23"/>
+            <zone points = ' 2765,3338 2763,3422 4424,3323 4425,3403 ' rendition="line" xml:id="facs_p1_lb24"/>
+            <zone points = ' 2768,3436 2768,3515 4430,3421 4431,3532 ' rendition="line" xml:id="facs_p1_lb25"/>
+            <zone points = ' 4427,3560 4424,3662 2765,3535 2768,3630 ' rendition="line" xml:id="facs_p1_lb26"/>
+            <zone points = ' 3587,3611 3588,3675 4168,3629 4172,3698 ' rendition="line" xml:id="facs_p1_lb27"/>
+            <!--Hotspot-->
+            <zone points = ' 3263,1117 3264,1229 3555,1126 3559,1236 ' rendition="hotspot" xml:id="facs_add1_lb5_p1"/>
+            <zone points = ' 3263,1117 3264,1229 3555,1126 3559,1236 ' rendition="hotspot" xml:id="facs_del1_lb5_p1"/>
+            <zone points = ' 3381,1252 3386,1348 3627,1258 3614,1345 ' rendition="hotspot" xml:id="facs_add2_lb6_p1"/>
+            <zone points = ' 4023,1373 4022,1465 4456,1395 4461,1511 ' rendition="hotspot" xml:id="facs_del2_lb7_p1"/>
+            <zone points = ' 2543,1478 2541,1557 3012,1466 3012,1507 ' rendition="hotspot" xml:id="facs_add3_lb8_p1"/>
+            <zone points = ' 4218,1854 4219,1925 4439,1859 4434,1927 ' rendition="hotspot" xml:id="facs_del3_lb11_p1"/>
+            <zone points = ' 2511,2421 2516,2636 2705,2434 2705,2635 ' rendition="hotspot" xml:id="facs_add4_lb16_p1"/>
+            <zone points = ' 3859,2504 3864,2567 4138,2492 4138,2560 ' rendition="hotspot" xml:id="facs_add5_lb17_p1"/>
+            <zone points = ' 3875,2825 3875,2880 3959,2823 3960,2874 ' rendition="hotspot" xml:id="facs_add6_lb20_p1"/>
+            <zone points = ' 2520,2993 2517,3065 2741,2968 2739,3051 ' rendition="hotspot" xml:id="facs_add7_lb21_p1"/>
+            <zone points = ' 2759,2980 2756,3061 3237,2968 3237,3054 ' rendition="hotspot" xml:id="facs_del4_lb21_p1"/>
+            <zone points = ' 2505,3095 2501,3218 2694,3076 2696,3208 ' rendition="hotspot" xml:id="facs_add8_lb22_p1"/>
+            <zone points = ' 2846,3065 2838,3119 3088,3059 3090,3117 ' rendition="hotspot" xml:id="facs_add9_lb22_p1"/>
+            <zone points = ' 2773,3109 2774,3182 3030,3113 3032,3167 ' rendition="hotspot" xml:id="facs_del5_lb22_p1"/>
+            <zone points = ' 3380,3311 3378,3415 4001,3307 4000,3392 ' rendition="hotspot" xml:id="facs_del6_lb24_p1"/>
+
+        </surface>
+        <!--SECONDA PAGINA-->
+        <surface n="2" xml:id="scan_p2">
+            <graphic url='ms_fr_03951_01_3_f002_001.jpg' width='6048px' height='4032px' />
+            <!--Numerazione a mano-->
+            <zone points = ' 592,501 589,653 755,499 757,643 ' rendition="hotspot" xml:id="facs_HandPageNumber-2"/>
+            <!--Righe-->
+            <zone points = ' 821,564 821,666 2468,595 2471,702 ' rendition="line" xml:id="facs_p2_lb1"/>
+            <zone points = ' 2461,718 2452,799 841,694 841,785 ' rendition="line" xml:id="facs_p2_lb2"/>
+            <zone points = ' 847,803 849,876 2448,805 2448,896 ' rendition="line" xml:id="facs_p2_lb3"/>
+            <zone points = ' 567,873 570,996 2426,907 2425,995 ' rendition="line" xml:id="facs_p2_lb4"/>
+            <zone points = ' 2476,1007 2475,1097 856,996 855,1084 ' rendition="line" xml:id="facs_p2_lb5"/>
+            <zone points = ' 836,1108 835,1207 2464,1109 2462,1210 ' rendition="line" xml:id="facs_p2_lb6"/>
+            <zone points = ' 2376,1224 2370,1303 560,1220 560,1313 ' rendition="line" xml:id="facs_p2_lb7"/>
+            <zone points = ' 561,1432 558,1526 2470,1402 2470,1514 ' rendition="line" xml:id="facs_p2_lb8"/>
+            <zone points = ' 2162,1535 2163,1629 558,1553 550,1655 ' rendition="line" xml:id="facs_p2_lb9"/>
+            <zone points = ' 874,1660 866,1790 2453,1662 2454,1783 ' rendition="line" xml:id="facs_p2_lb10"/>
+            <zone points = ' 2441,1798 2435,1902 755,1800 751,1899 ' rendition="line" xml:id="facs_p2_lb11"/>
+            <zone points = ' 760,1920 755,2007 2374,1911 2374,2000 ' rendition="line" xml:id="facs_p2_lb12"/>
+            <zone points = ' 755,2044 753,2140 2414,1999 2422,2130 ' rendition="line" xml:id="facs_p2_lb13"/>
+            <zone points = ' 756,2393 756,2503 2444,2351 2447,2495 ' rendition="line" xml:id="facs_p2_lb14"/>
+            <zone points = ' 528,2513 516,2645 2452,2507 2447,2618 ' rendition="line" xml:id="facs_p2_lb15"/>
+            <zone points = ' 768,2641 768,2736 2389,2623 2389,2702 ' rendition="line" xml:id="facs_p2_lb16"/>
+            <zone points = ' 765,2744 759,2849 2417,2706 2418,2787 ' rendition="line" xml:id="facs_p2_lb17"/>
+            <zone points = ' 2437,2812 2433,2916 545,2853 547,2997 ' rendition="line" xml:id="facs_p2_lb18"/>
+            <zone points = ' 757,2988 754,3074 2229,2938 2224,3028 ' rendition="line" xml:id="facs_p2_lb19"/>
+            <zone points = ' 763,3085 761,3190 2304,3044 2304,3146 ' rendition="line" xml:id="facs_p2_lb20"/>
+            <zone points = ' 748,3206 746,3314 2313,3141 2320,3232 ' rendition="line" xml:id="facs_p2_lb21"/>
+            <zone points = ' 504,3330 501,3466 2372,3257 2378,3362 ' rendition="line" xml:id="facs_p2_lb22"/>
+            <zone points = ' 777,3441 777,3531 2365,3399 2375,3628 ' rendition="line" xml:id="facs_p2_lb23"/>
+            <!--Hotspot-->
+            <zone points = ' 1683,542 1681,671 1893,544 1885,681 ' rendition="hotspot" xml:id="facs_add1_lb1_p2"/>
+            <zone points = ' 1683,542 1681,671 1893,544 1885,681 ' rendition="hotspot" xml:id="facs_del1_lb1_p2"/>
+            <zone points = ' 1463,694 1462,758 1638,691 1634,770 ' rendition="hotspot" xml:id="facs_del2_lb2_p2"/>
+            <zone points = ' 1827,778 1826,814 2103,778 2100,817 ' rendition="hotspot" xml:id="facs_add2_lb3_p2"/>
+            <zone points = ' 1907,808 1906,863 2443,798 2438,893 ' rendition="hotspot" xml:id="facs_del3_lb3_p2"/>
+            <zone points = ' 573,846 567,1004 825,854 822,989 ' rendition="hotspot" xml:id="facs_add3_lb3_p2"/>
+            <zone points = ' 1126,1079 1127,1139 1365,1083 1365,1132 ' rendition="hotspot" xml:id="facs_add4_lb6_p2"/>
+            <zone points = ' 561,1217 556,1309 774,1216 774,1300 ' rendition="hotspot" xml:id="facs_add5_lb7_p2"/>
+            <zone points = ' 830,1233 830,1287 1143,1247 1144,1294 ' rendition="hotspot" xml:id="facs_del4_lb7_p2"/>
+            <zone points = ' 869,1187 868,1236 1142,1187 1142,1249 ' rendition="hotspot" xml:id="facs_add6_lb7_p2"/>
+            <zone points = ' 826,1333 824,1419 2359,1316 2355,1402 ' rendition="hotspot" xml:id="facs_del5_middle1_p2"/>
+            <zone points = ' 560,1449 552,1523 785,1447 783,1520 ' rendition="hotspot" xml:id="facs_add7_lb8_p2"/>
+            <zone points = ' 862,1446 861,1532 1276,1437 1276,1519 ' rendition="hotspot" xml:id="facs_del6_lb8_p2"/>
+            <zone points = ' 2064,1395 2064,1442 2414,1392 2410,1450 ' rendition="hotspot" xml:id="facs_add8_lb8_p2"/>
+            <zone points = ' 560,1553 560,1662 818,1542 818,1626 ' rendition="hotspot" xml:id="facs_add9_lb9_p2"/>
+            <zone points = ' 1223,1509 1221,1581 1501,1509 1501,1566 ' rendition="hotspot" xml:id="facs_add10_lb9_p2"/>
+            <zone points = ' 1195,1584 1194,1634 1533,1559 1531,1624 ' rendition="hotspot" xml:id="facs_del7_lb9_p2"/>
+            <zone points = ' 1495,1686 1497,1748 1883,1662 1879,1742 ' rendition="hotspot" xml:id="facs_add11_lb10_p2"/>
+            <zone points = ' 1463,1746 1463,1800 2085,1736 2083,1788 ' rendition="hotspot" xml:id="facs_del8_lb10_p2"/>
+            <zone points = ' 1061,2066 1057,2138 2331,2048 2333,2120 ' rendition="hotspot" xml:id="facs_add12_lb13_p2"/>
+            <zone points = ' 1043,2122 1043,2202 2455,2090 2453,2206 ' rendition="hotspot" xml:id="facs_del9_lb13_p2"/>
+            <zone points = ' 763,2236 757,2428 2389,2218 2391,2402 ' rendition="hotspot" xml:id="facs_del10_middle2_p2"/>
+            <zone points = ' 1979,2400 1981,2450 2273,2392 2275,2456 ' rendition="hotspot" xml:id="facs_add13_lb14_p2"/>
+            <zone points = ' 531,2562 525,2684 713,2550 713,2692 ' rendition="hotspot" xml:id="facs_add14_lb15_p2"/>
+            <zone points = ' 1077,2546 1075,2594 1665,2532 1671,2610 ' rendition="hotspot" xml:id="facs_add15_lb15_p2"/>
+            <zone points = ' 1129,2598 1125,2644 1643,2590 1645,2644 ' rendition="hotspot" xml:id="facs_del11_lb15_p2"/>
+            <zone points = ' 2083,3000 2079,3066 2207,3004 2205,3070 ' rendition="hotspot" xml:id="facs_del12_lb19_p2"/>
+            <zone points = ' 1417,3098 1417,3142 1903,3074 1903,3130 ' rendition="hotspot" xml:id="facs_add16_lb20_p2"/>
+            <zone points = ' 1391,3208 1391,3286 2015,3180 2011,3236 ' rendition="hotspot" xml:id="facs_add17_lb21_p2"/>
+            <zone points = ' 1503,3268 1505,3316 1957,3246 1957,3304 ' rendition="hotspot" xml:id="facs_del13_lb21_p2"/>
+            <zone points = ' 503,3392 511,3500 715,3392 715,3512 ' rendition="hotspot" xml:id="facs_add18_lb22_p2"/>
+            <zone points = ' 2213,3298 2217,3340 2349,3302 2357,3366 ' rendition="hotspot" xml:id="facs_add19_lb22_p2"/>
+            <zone points = ' 2215,3342 2229,3416 2365,3342 2365,3410 ' rendition="hotspot" xml:id="facs_del14_lb23_p2"/>
+            <zone points = ' 789,3486 785,3586 1157,3476 1157,3584 ' rendition="hotspot" xml:id="facs_del15_lb23_p2"/>
+            <zone points = ' 1297,3442 1295,3502 1689,3430 1687,3490 ' rendition="hotspot" xml:id="facs_add20_lb23_p2"/>
+            <zone points = ' 1251,3482 1249,3570 1639,3490 1639,3562 ' rendition="hotspot" xml:id="facs_del16_lb23_p2"/>
+        </surface>
+    </facsimile>
+
+    <!--Text contiene: group con testi nelle 2 lingue per ogni text, e back con note-->
+    <text type="" xml:id="lezione3" subtype="manuscript" n="lezione3">
+        <group>
+            <group xml:id="fr_Prolusioni">
+                <!--FR 1 PROLUSIONE-->
+
+                <!--FR 2 PROLUSIONE-->
+
+                <!--FR 3 PROLUSIONE-->
+                <text xml:id="fr_Prolusione-3">
+                    <body xml:lang="fr" source="#Bouquet-Engler2002">
+                        <!--Prima pagina = primo folio, recto-->
+                        <pb n="1" xml:id="body_p1" facs="#scan_p1"/>
+                        <!--Numeri impaginazione a mano-->
+                        <ab>
+                            <fw type="pageNum" xml:id="HandPageNumber-1" rend="align(left)" facs="#facs_HandPageNumber-1"> 1 </fw>
+                        </ab>
+                        <div xml:id="div_p1">
+                            <!--Inizio 1a pericope-->
+                            <ab xml:id="pericope_001" n="1" xml:lang="FR" corresp="#it_pericope_001" facs="#facs_Pericope1">
+                                <lb xml:id="lb1_p1" n="1" facs="#facs_p1_lb1"/>
+                                Les <term>objets</term> considérés dans nos <seg>deux premières 
+                                <lb xml:id="lb2_p1" n="2" facs="#facs_p1_lb2"/>
+                                conférences</seg> nous donnent, dès à présent, si nous 
+                                <lb xml:id="lb3_p1" n="3" facs="#facs_p1_lb3"/>
+                                les groupons dans notre esprit, un aperçu 
+                                <lb xml:id="lb4_p1" n="4" facs="#facs_p1_lb4"/>
+                                suffisant sur ce qu’est la <emph rend="underline"><term>condition</term></emph> 
+                                <lb xml:id="lb5_p1" n="5" facs="#facs_p1_lb5"/>
+                                <emph>de <term>la langue</term></emph> <term><add place="above" xml:id="add1_p1" facs="#facs_add1_lb5_p1">dans</add><del xml:id="del1_p1" facs="#facs_del1_lb5_p1">devant</del> le <emph rend="underline"><retrace>T</retrace>emps</emph></term>, devant le 
+                                <lb xml:id="lb6_p1" n="6" facs="#facs_p1_lb6"/>
+                                <term>facteur <emph rend="underline">Temps</emph></term>;
+                            </ab>
+                            <!--Inizio 2a pericope-->
+                            <ab xml:id="pericope_002" n="2" xml:lang="FR" corresp="#it_pericope_002" facs="#facs_Pericope2">
+                                <add place="above" xml:id="add2_p1" facs="#facs_add2_lb6_p1">ils nous donnent</add> une <term>idée</term> des <term>condition
+                                <lb xml:id="lb7_p1" n="7" facs="#facs_p1_lb7"/>
+                                universelles</term> où se trouve placé<del xml:id="del2_p1" facs="#facs_del2_lb7_p1">le langage</del> 
+                                <lb xml:id="lb8_p1" n="8" facs="#facs_p1_lb8"/>
+                                <add place="above" xml:id="add3_p1" facs="#facs_add3_lb8_p1">un <term>idiome</term> quelconque</add> en présence du fait « qu’un certain <emph rend="underline">inter-
+                                <lb break="no" xml:id="lb9_p1" n="9" facs="#facs_p1_lb9"/>
+                                -valle de <term>temps</term> s’écoule</emph> » - et nous nous 
+                                <lb xml:id="lb10_p1" n="10" facs="#facs_p1_lb10"/>
+                                sommes appliqué à ne faire intervenir, 
+                                <lb xml:id="lb11_p1" n="11" facs="#facs_p1_lb11"/>
+                                jusqu’à présent, aucun autre <term>facteur<del xml:id="del3_p1" facs="#facs_del3_lb11_p1"><gap reason="illegible"/></del> 
+                                <lb xml:id="lb12_p1" n="12" facs="#facs_p1_lb12"/>
+                                fondamental</term> que ce <term>facteur</term> de la <emph rend="underline"><term>durée</term></emph>, 
+                                <lb xml:id="lb13_p1" n="13" facs="#facs_p1_lb13"/>
+                                de la <emph rend="underline"><term>distance chronologique</term></emph>.
+                            </ab>
+                            <!--Inizio 3a pericope-->
+                            <ab xml:id="pericope_003" n="3" xml:lang="FR" corresp="#it_pericope_003" facs="#facs_Pericope3">
+                                <lb xml:id="lb14_p1" n="14" facs="#facs_p1_lb14"/>
+                                S’il fallait récapituler les princi-
+                                <lb break="no" xml:id="lb15_p1" n="15" facs="#facs_p1_lb15"/>
+                                -paux <term>points de vue</term> où nous avons été 
+                                <lb xml:id="lb16_p1" n="16" facs="#facs_p1_lb16"/>
+                                conduits <add place="left margin" xml:id="add4_p1" facs="#facs_add4_lb16_p1">dans cette première <term>étude</term></add>, j’insisterais certainement en-
+                                <lb break="no" xml:id="lb17_p1" n="17" facs="#facs_p1_lb17"/>
+                                -core une fois sur l’impossibilité <add place="above" xml:id="add5_p1" facs="#facs_add5_lb17_p1"><term>radicale</term></add>, non 
+                                <lb xml:id="lb18_p1" n="18" facs="#facs_p1_lb18"/>
+                                seulement de toute rupture, mais de tout 
+                                <lb xml:id="lb19_p1" n="19" facs="#facs_p1_lb19"/>
+                                soubresaut, dans la <term>tradition continue 
+                                <lb xml:id="lb20_p1" n="20" facs="#facs_p1_lb20"/>
+                                de la langue</term> depuis le premier jour <add place="above" xml:id="add6_p1" facs="#facs_add6_lb20_p1">même</add> où une 
+                                <lb xml:id="lb21_p1" n="21" facs="#facs_p1_lb21"/>
+                                <add place="left margin" xml:id="add7_p1" facs="#facs_add7_lb21_p1"><term>société</term></add><del xml:id="del4_p1" facs="#facs_del4_lb21_p1"><gap reason="illegible"/></del> <term>humaine a parlé</term>;
+                            </ab>
+                            <!--Inizio 4a pericope-->
+                            <ab xml:id="pericope_004" n="4" xml:lang="FR" corresp="#it_pericope_004" facs="#facs_Pericope4">
+                                - sur ces 
+                                <lb xml:id="lb22_p1" n="22" facs="#facs_p1_lb22"/>
+                                <add place="left margin" xml:id="add8_p1" facs="#facs_add8_lb22_p1">différents points</add> <add place="above" xml:id="add9_p1" facs="#facs_add9_lb22_p1">immédiatement</add><del xml:id="del5_p1" facs="#facs_del5_lb22_p1"><gap reason="illegible"/></del> évidents, qu’aucune <term>langue</term> ne peut 
+                                <lb xml:id="lb23_p1" n="23" facs="#facs_p1_lb23"/>
+                                <emph rend="underline"><term>mourir</term></emph>, si elle n’est violemment supprimée ;
+                            </ab>
+                            <!--Inizio 5a pericope-->
+                            <ab xml:id="pericope_005" n="5" xml:lang="FR" corresp="#it_pericope_005" facs="#facs_Pericope5">
+                                <lb xml:id="lb24_p1" n="24" facs="#facs_p1_lb24"/>
+                                - qu’aucune <del xml:id="del6_p1" facs="#facs_del6_lb24_p1"><gap reason="illegible"/></del> n’a une <term>vieil-
+                                <lb break="no" xml:id="lb25_p1" n="25" facs="#facs_p1_lb25"/>
+                                -lesse</term>, et qu’aucune n’a une <term>enfance</term>, qu’enfin 
+                                <lb xml:id="lb26_p1" n="26" facs="#facs_p1_lb26"/>
+                                aucune <term>langue</term> nouvelle ne peut jamais <emph rend="underline"><term>naître</term></emph> 
+                                <lb xml:id="lb27_p1" n="27" facs="#facs_p1_lb27"/>
+                                sous le soleil ;
+                            </ab>
+                        </div>
+                        <!--Fine pagina 1-->
+                        <!--Inizio pagina 2-->
+                        <pb n="2" xml:id="body_p2" facs="#scan_p2"/>
+                        <!--Numero impaginazione a mano-->                        
+                        <fw type="pageNum" xml:id="HandPageNumber-2" rend="align(left)" facs="#facs_HandPageNumber-2">2</fw>
+                        <div xml:id="div_p2">
+                            <!--Inizio 1a pericope-->
+                            <ab xml:id="pericope_006" n="1" xml:lang="FR" corresp="#it_pericope_006" facs="#facs_Pericope6">
+                                <lb xml:id="lb1_p2" n="1" facs="#facs_p2_lb1"/>
+                                que si on supprime <add place="above" xml:id="add1_p2" facs="#facs_add1_lb1_p2">la</add><del xml:id="del1_p2" facs="#facs_del1_lb1_p2"><gap reason="illegible"/></del> <term>langue</term> d’un  
+                                <lb xml:id="lb2_p2" n="2" facs="#facs_p2_lb2"/>
+                                <term>peuple</term> en lui <del xml:id="del2_p2" facs="#facs_del2_lb2_p2"><gap reason="illegible"/></del> en imposant une 
+                                <lb xml:id="lb3_p2" n="3" facs="#facs_p2_lb3"/>
+                                autre, cette autre <term>langue</term> <add place="above" xml:id="add2_p2" facs="#facs_add2_lb3_p2">se trouve être</add> <del xml:id="del3_p2" facs="#facs_del3_lb3_p2"><gap reason="illegible"/></del> <add place="left margin" xml:id="add3_p2" facs="#facs_add3_lb3_p2"><term>naturellement</term> juste aussi</add> 
+                                <lb xml:id="lb4_p2" n="4" facs="#facs_p2_lb4"/>
+                                ancienne que celle qui vient d’être 
+                                <lb xml:id="lb5_p2" n="5" facs="#facs_p2_lb5"/>
+                                abolie, de manière qu’il ne peut jamais 
+                                <lb xml:id="lb6_p2" n="6" facs="#facs_p2_lb6"/>
+                                y avoir <add place="above" xml:id="add4_p2" facs="#facs_add4_lb6_p2">sur le globe</add> que <term>continuation</term> d’un <term>idiome</term> 
+                                <lb xml:id="lb7_p2" n="7" facs="#facs_p2_lb7"/>
+                                <add place="left margin" xml:id="add5_p2" facs="#facs_add5_lb7_p2">existant</add><del xml:id="del4_p2" facs="#facs_del4_lb7_p2"><gap reason="illegible"/></del> <add place="above" xml:id="add6_p2" facs="#facs_add6_lb7_p2">la veille</add>, et toujours 
+                                <del xml:id="del5_p2" facs="#facs_del5_middle1_p2"><gap reason="irrelevant"/></del>
+                                <lb xml:id="lb8_p2" n="8" facs="#facs_p2_lb8"/>
+                                <add place="left margin" xml:id="add7_p2" facs="#facs_add7_lb8_p2">existant</add> <del xml:id="del6_p2" facs="#facs_del6_lb8_p2"><gap reason="illegible"/></del> la veille, jusqu’à <add place="above" xml:id="add8_p2" facs="#facs_add8_lb8_p2"><emph rend="underline">ce qu’on arrive</emph></add> à la nuit 
+                                <lb xml:id="lb9_p2" n="9" facs="#facs_p2_lb9"/>
+                                <add place="left margin" xml:id="add9_p2" facs="#facs_add9_lb9_p2">insondable</add> des âges <add place="above" xml:id="add10_p2" facs="#facs_add10_lb9_p2">décidément</add><del xml:id="del7_p2" facs="#facs_del7_lb9_p2"><gap reason="illegible"/></del> <term>antéhistoriques</term>.
+                            </ab>
+                            <!--Inizio 2a pericope-->
+                            <ab xml:id="pericope_007" n="2" xml:lang="FR" corresp="#it_pericope_007" facs="#facs_Pericope7">
+                                <lb xml:id="lb10_p2" n="10" facs="#facs_p2_lb10"/>
+                                Je rappellerais <add place="above" xml:id="add11_p2" facs="#facs_add11_lb10_p2">surtout</add><del xml:id="del8_p2" facs="#facs_del8_lb10_p2"><gap reason="illegible"/></del>, toujours 
+                                <lb xml:id="lb11_p2" n="11" facs="#facs_p2_lb11"/>
+                                dans le même ordre d’idées, qu’il n’arrive 
+                                <lb xml:id="lb12_p2" n="12" facs="#facs_p2_lb12"/>
+                                jamais qu’une <emph rend="underline"><term>langue</term> succède à une 
+                                <lb xml:id="lb13_p2" n="13" facs="#facs_p2_lb13"/>
+                                autre</emph> ;
+                            </ab>
+                            <!--Inizio 3a pericope-->
+                            <ab xml:id="pericope_008" n="3" xml:lang="FR" corresp="#it_pericope_008" facs="#facs_Pericope8">
+                                <add place="above" xml:id="add12_p2" facs="#facs_add12_lb13_p2">par exemple que le <emph rend="underline"><seg xml:id="glottonimo_A1">français</seg></emph> succède au <emph rend="underline"><seg xml:id="glottonimo_A2">latin</seg></emph></add><del xml:id="del9_p2" facs="#facs_del9_lb13_p2"><gap reason="illegible"/></del> ;
+                                <del xml:id="del10_p2" facs="#facs_del10_middle2_p2"><gap reason="irrelevant"/></del>
+                            </ab>
+                            <!--Inizio 4a pericope-->
+                            <ab xml:id="pericope_009" n="4" xml:lang="FR" corresp="#it_pericope_009" facs="#facs_Pericope9">
+                                <lb xml:id="lb14_p2" n="14" facs="#facs_p2_lb14"/>
+                                mais que cette <term>succession</term> imaginaire <add place="above" xml:id="add13_p2" facs="#facs_add13_lb14_p2">de deux <term>choses</term></add> vient 
+                                <lb xml:id="lb15_p2" n="15" facs="#facs_p2_lb15"/>
+                                <add place="left margin" xml:id="add14_p2" facs="#facs_add14_lb15_p2">uniquement</add> de ce qu’<add place="above" xml:id="add15_p2" facs="#facs_add15_lb15_p2">il nous plaît de donner</add><del xml:id="del11_p2" facs="#facs_del11_lb15_p2"><gap reason="illegible"/></del> deux <term>noms</term> successifs 
+                                <lb xml:id="lb16_p2" n="16" facs="#facs_p2_lb16"/>
+                                au même <term>idiome</term> et par conséquent d’en 
+                                <lb xml:id="lb17_p2" n="17" facs="#facs_p2_lb17"/>
+                                faire <term>arbitrairement</term> deux <term>choses</term> séparées dans le <term>temps</term>.
+                            </ab>
+                            <!--Inizio 5a pericope-->
+                            <ab xml:id="pericope_0010" n="5" xml:lang="FR" corresp="#it_pericope_0010" facs="#facs_Pericope10">
+                                <lb xml:id="lb18_p2" n="18" facs="#facs_p2_lb18"/>
+                                Sans doute, l’influence qu’exercent sur notre <term>esprit</term> 
+                                <lb xml:id="lb19_p2" n="19" facs="#facs_p2_lb19"/>
+                                deux <term>noms</term> successifs de ce genre est <del xml:id="del12_p2" facs="#facs_del12_lb19_p2"><gap reason="illegible"/></del>
+                                <lb xml:id="lb20_p2" n="20" facs="#facs_p2_lb20"/>
+                                tellement décisive et <add place="above" xml:id="add16_p2" facs="#facs_add16_lb20_p2">tellement inébranlable</add>, indéracinable, que 
+                                <lb xml:id="lb21_p2" n="21" facs="#facs_p2_lb21"/>
+                                je ne songe pas, <add place="above" xml:id="add17_p2" facs="#facs_add17_lb21_p2">je vous l’avoue franchement, à</add><del xml:id="del13_p2" facs="#facs_del13_lb21_p2"><gap reason="illegible"/></del> détruire 
+                                <lb xml:id="lb22_p2" n="22" facs="#facs_p2_lb22"/>
+                                <add place="left margin" xml:id="add18_p2" facs="#facs_add18_lb22_p2">votre préjugé</add> en quelques jours par deux ou trois <add place="above" xml:id="add19_p2" facs="#facs_add19_lb22_p2">remarques</add><del xml:id="del14_p2" facs="#facs_del14_lb23_p2"><gap reason="illegible"/></del> 
+                                <lb xml:id="lb23_p2" n="23" facs="#facs_p2_lb23"/>
+                                <del xml:id="del15_p2" facs="#facs_del15_lb23_p2"><gap reason="illegible"/></del><add place="above" xml:id="add20_p2" facs="#facs_add20_lb23_p2">de ma part</add><del xml:id="del16_p2" facs="#facs_del16_lb23_p2"><gap reason="illegible"/></del>.
+                            </ab>
+                            <!--Inizio 6a pericope-->
+                            <ab xml:id="pericope_0011" n="6" xml:lang="FR" corresp="#it_pericope_0011" facs="#facs_Pericope11">
+                                Ce n’est - tous les <term>linguistes</term> le savent – 
+                            </ab><!--continua nella 3a pagina-->
+                        </div>
+                    </body>
+                </text>
+            </group>  
+            
+            <group xml:id="it_Prolusioni" xml:lang="IT">
+                <!--ITA 1 PROLUSIONE-->
+
+                <!--ITA 2 PROLUSIONE-->
+
+                <!--ITA 3 PROLUSIONE-->
+                <text xml:id="it_Prolusione-3"> <!--ITA 3 PROLUSIONE-->
+                    <body source="#Fadda2006" resp="#EF">
+                        <ab xml:id="it_pericope_001" corresp="#pericope_001" xml:lang="IT">
+                            Gli oggetti considerati nelle nostre due prime conferenze ci offrono, fin da ora, se li mettiamo insieme nella nostra mente, un panorama sufficiente di ciò che è la condizione della lingua nel Tempo, davanti al fattore Tempo;
+                        </ab>
+                        <ab xml:id="it_pericope_002" corresp="#pericope_002" xml:lang="IT">
+                            essi ci danno un’idea delle condizioni universali in cui si trova posto un idioma qualunque in presenza del fatto “che un certo intervallo di tempo trascorre” – e noi ci siamo applicati a non fare intervenire, fino ad ora, nessun altro fattore fondamentale oltre al fattore della durata, della distanza cronologica.
+                        </ab>
+                        <ab xml:id="it_pericope_003" corresp="#pericope_003" xml:lang="IT">
+                            Se si dovessero ricapitolare le principali prospettive da cui ci siamo mossi in questo primo studio, insisterei certamente ancora una volta sull’impossibilità radicale, non solamente di ogni rottura, ma di ogni salto, nella tradizione continua della lingua dal primo giorno in cui una società umana ha parlato;
+                        </ab>
+                        <ab xml:id="it_pericope_004" corresp="#pericope_004" xml:lang="IT">
+                            – su questi diversi punti immediatamente evidenti, che nessuna lingua può morire, se non è soppressa violentemente;
+                        </ab>
+                        <ab xml:id="it_pericope_005" corresp="#pericope_005" xml:lang="IT">
+                            che nessuna ha una vecchiaia, e nessuna ha un’infanzia, che infine nessuna lingua nuova può mai nascere sotto il sole;
+                        </ab>
+                        <!--Fine pagina 1-->
+                        <!--Inizio pagina 2-->
+                        <ab xml:id="it_pericope_006" corresp="#pericope_006" xml:lang="IT">
+                            che se si sopprime la lingua di un popolo imponendogliene un’altra, quest’ultima si trova ad essere, naturalmente, altrettanto antica di quella che è appena stata abolita, in modo che non può mai esserci sul pianeta che continuazione di una lingua esistente il giorno prima, e sempre esistente il giorno prima, fino a dove arriva la notte insondabile delle età assolutamente preistoriche.
+                        </ab>
+                        <ab xml:id="it_pericope_007" corresp="#pericope_007" xml:lang="IT">
+                            Ricorderò soprattutto, sempre nello stesso ordine di idee, che non succede mai che una lingua succeda a un’altra;
+                        </ab>
+                        <ab xml:id="it_pericope_008" corresp="#pericope_008" xml:lang="IT">
+                            per esempio che il francese succeda al latino;
+                        </ab>
+                        <ab xml:id="it_pericope_009" corresp="#pericope_009" xml:lang="IT">
+                            ma che questa successione immaginaria di due cose viene unicamente dal fatto che ci aggrada dare due nomi successivi allo stesso idioma, e di conseguenza di farne arbitrariamente due cose separate nel tempo.
+                        </ab>
+                        <ab xml:id="it_pericope_0010" corresp="#pericope_0010" xml:lang="IT">
+                            Senza dubbio, l’influenza che esercitano sulla nostra mente due nomi successivi di questo genere è talmente decisiva e talmente irremovibile, inestirpabile, che non ho la minima aspettativa nemmeno, ve lo confesso con franchezza, di distruggere il vostro pregiudizio in qualche giorno con due o tre osservazioni mie.
+                        </ab>
+                        <ab xml:id="it_pericope_0011" corresp="#pericope_0011" xml:lang="IT">
+                            È solo – tutti i linguisti lo sanno – 
+                        </ab>                                      
+                    </body>
+                </text>            
+            </group>
+        </group>
+
+
+        <!--Note, bibliografia, listPerson, listOrganizations-->
+        <back>
+            <div type="addList">
+
+                <!-- NOTE -->
+                <list type="notes">
+                    <!--1-->
+                    <item n="1" xml:id="pag1_note1" resp="#AC">
+                        <p>
+                            Scilicet “Université de Genève”, it. “Università di Ginevra”
+                        </p>
+                    </item>
+                    <!--2-->
+                    <item n="2" xml:id="pag1_note2" resp="#AC">
+                        <p>
+                            Alessandro Chidichimo's provided each lessons date in his article appearing in Cahiers Ferdinand de Saussure. He provides the dates of the three FdS conferences at the University of Geneva: the certainty of the first two is high, comparing them with the information in the "Journal de Genève" and in "Le Genevois". Chidichimo puts forward two hypotheses for the third conference: Friday 13 November or Tuesday 17.
+                        </p>
+                    </item>
+                </list> 
+
+                <!-- BIBLIOGRAPHY -->
+                <listBibl xml:id="prolusioni1_bibliography">
+                    <head>Bibliography</head>
+
+                    <!--Bouquet-Engler2002-->
+                    <bibl xml:id="Bouquet-Engler2002"> 
+                        <title type="main">Écrits de linguistique générale</title>
+                        <author>
+                            <persName ref="#FdS">
+                                <forename>Ferdinand</forename> 
+                                <surname>de Saussure</surname>
+                            </persName>
+                        </author>
+                        <author>
+                            <persName ref="#SB">
+                                <forename>Simon</forename>
+                                <surname>Bouquet</surname>
+                            </persName>
+                        </author>
+                        <author>
+                            <persName ref="#RE">
+                                <forename>Rudolf</forename>
+                                <surname>Engler</surname>
+                            </persName>
+                        </author>
+                        <author>
+                            <persName ref="#AW">
+                                <forename>Antoinette</forename>
+                                <surname>Weil</surname>
+                            </persName>
+                        </author>
+                        <date when="2002">2002</date>
+                        <publisher>Gallimard</publisher>
+                        <pubPlace>Paris</pubPlace>
+                        <idno type="ISSN">0302-5160</idno>
+                        <citedRange unit="page" from="143" to="172">143-172</citedRange>
+                        <note>
+                            French transcription of the manuscript
+                        </note>
+                    </bibl>
+
+                    <!--E.Fadda 2006-->
+                    <bibl xml:id="Fadda2006">
+                        <title type="main">Lingua e mente sociale</title>
+                        <title type="sub">Per una teoria delle istituzioni linguistiche a partire da Saussure e Mead</title>
+                        <author>
+                            <persName ref="#EF">
+                                <forename>Emanuele</forename>
+                                <surname>Fadda</surname>
+                            </persName>
+                        </author>  
+                        <publisher>Bonanno Editore</publisher>
+                        <pubPlace>Alessandria</pubPlace>
+                        <citedRange unit="page" from="85" to="121">85-121</citedRange>
+                        <publisher>Bonanno Editore</publisher>
+                        <pubPlace>Acireale - Roma</pubPlace>
+                        <idno type="ISBN">887796276-3</idno>
+                        <citedRange unit="page" from="85" to="121">85-121</citedRange>
+                        <note>
+                            Italian transcription of the manuscript
+                        </note>
+                    </bibl>
+                </listBibl>
+                
+                <!-- PERSON -->
+                <listPerson>
+                    <head>People</head>
+                    
+                    <!--Ferdinand de Saussure-->
+                    <person xml:id="FdS" sameAs="https://viaf.org/viaf/95158205/ https://www.worldcat.org/identities/viaf-8291159248237604870007/"> 
+                        <persName role="author">
+                            <forename>Ferdinand</forename>
+                            <surname>de Saussure</surname>
+                        </persName>
+                        <occupation> linguistic </occupation>
+                        <sex>M</sex>
+                        <birth>
+                            <date when="1857-11-26">26th November 1857</date>
+                            <placeName ref="#GE">
+                                <settlement type="municipality">Genève</settlement>
+                                <settlement type="department" key="GE">Genève</settlement>
+                                <country key="CH">Switzerland</country>
+                            </placeName>
+                        </birth>
+                        <death>
+							<date when="1913-02-22">22nd February 1913</date>
+							<placeName ref="#VlC">
+								<settlement type="municipality">Vufflens-le-Château</settlement>
+								<settlement type="canton" key="Vaud">Vaud</settlement>
+								<country key="CH">Svizzera</country>
+							</placeName>
+                        </death> 
+                    </person>
+
+                    <!--Emanuele Fadda-->
+                    <person xml:id="EF" sameAs="http://viaf.org/viaf/101011384/ http://worldcat.org/identities/lccn-no2011183289/"> 
+                        <persName role="author"> 
+                            <forename>Emanuele</forename>
+                            <surname>Fadda</surname>
+                        </persName>
+                        <sex>M</sex>
+                        <birth>
+                        <date when="1972">1972</date>
+                            <placeName ref="#CA">
+                                <settlement type="municipality">Cagliari</settlement>
+                                <settlement type="provincia" key="CA">Cagliari</settlement>
+                                <country key="IT">Italy</country>
+                            </placeName>
+                        </birth> 
+                    </person>
+
+                    <!--Simon Bouquet-->
+                    <person xml:id="SB" sameAs="http://viaf.org/viaf/100974817 https://www.worldcat.org/identities/lccn-n97102757/"> 
+                        <persName> 
+                            <forename>Simon</forename>
+                            <surname>Bouquet</surname>
+                        </persName>
+                        <sex>M</sex>
+                        <birth>
+                            <date when="1954">1954</date>
+                        </birth> 
+                    </person>
+
+                    <!--Rudolf Engler-->
+                    <person xml:id="RE" sameAs="https://viaf.org/viaf/2500391/ http://worldcat.org/identities/lccn-nr89013033/"> 
+                        <persName role="author"> 
+                            <forename>Rudolf</forename>
+                            <surname>Engler</surname>
+                        </persName>
+                        <sex>M</sex>
+                        <birth>
+                            <date when="1930-10-25">25th October 1930</date>
+                        </birth> 
+                    </person>
+
+                    <!--Alessandro Chidichimo-->
+                    <person xml:id="Chidichimo" sameAs="https://www.worldcat.org/wcidentities/viaf-8291159248237604870007">
+                        <persName> 
+                            <forename>Alessandro</forename>
+                            <surname>Chidichimo</surname>
+                        </persName>
+                        <sex>M</sex>
+                        <note> Alessandro Chidichimo's provided each lessons date, the accuracy is by day, unlike Bouquet-Egler which gives only the year. Chidichimo is the responsable of the dating. </note>
+                    </person>
+                </listPerson>
+
+                <!-- PLACE -->
+                <listPlace>
+                    <head>Places</head>
+                    
+                    <!--Genève-->
+                    <place xml:id="GE">
+                        <placeName ref="https://www.geonames.org/2660646/geneve.html https://www.treccani.it/enciclopedia/ginevra/">Genève</placeName>
+                        <country key="CH">Switzerland</country>
+                        <note>...</note>
+                    </place>
+
+                </listPlace>
+            
+                <!-- ORGANIZZAZIONI  -->
+                <listOrg>
+                    <org xml:id="UniGeneve">
+                        <orgName ref="https://en.wikipedia.org/wiki/University_of_Geneva>">University of Geneva</orgName>
+                            <placeName ref="#GE">Genève</placeName>
+                        <desc>
+                            The University of Geneva (French: Université de Genève) is a public research university located in Geneva, Switzerland.
+                        </desc>
+                    </org>
+                    <org xml:id="FacLettres">
+                        <orgName ref="https://www.unige.ch/lettres/fr/">Faculté des lettres de l'Université de Genève</orgName>
+                        <placeName ref="#GE">Genève</placeName>
+                    </org>
+                </listOrg>      
+            </div>
+        </back>
+    </text>
+</TEI>

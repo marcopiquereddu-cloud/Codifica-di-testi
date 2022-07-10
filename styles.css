@@ -1,0 +1,55 @@
+#intestazione{
+    width: 100%;
+}
+#intestazione h1{
+    display:inline-block;
+    border: 1px solid black;
+    padding: 1em;
+}
+h2{
+    width: 80%;
+    margin: 0 auto;
+    padding: 0.5em;
+}
+#text{
+    width: 100%;
+    margin: 0 auto;
+}
+h3, h4, p{
+    padding: 0.5em;
+}
+h3{
+    background-color: antiquewhite;
+}
+#p1, #p2, #_ita{
+    width: 80%;
+    margin: 0 auto;
+}
+#bibliografia{
+    border: 1px solid black;
+    margin-top: 2em;
+    padding: 1em;
+}
+#nome, #cognome{
+    display: inline;
+}
+.enfasi{
+    text-decoration: underline;
+}
+.tag{
+    background-color: yellow;
+    cursor: pointer;
+}
+.databile{
+    background-color: green;
+    cursor: pointer;
+}
+.glottonimo{
+    background-color: burlywood;
+    cursor: pointer;
+}
+.cancellatura{
+    text-decoration: line-through;
+    background-color: white;;
+    cursor: pointer;
+}
